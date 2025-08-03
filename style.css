@@ -1,0 +1,475 @@
+body {
+    background-color: #212529;
+}
+
+.loginTopic {
+    font-size: 70px;
+    color: #D5D9DD;
+    font-style: italic;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+
+.imageYak {
+    position: absolute;
+    top: 1%;
+    right: 0;
+    width: fit-content;
+    height: auto;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.imageYak img {
+    width: 40vw;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.login-container {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    background: #212529;
+    padding: 40px 30px;
+    border-radius: 12px;
+    width: 500px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.login-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.login-form input:focus {
+    border-color: #333;
+    outline: none;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 13px;
+}
+
+button {
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.signup-link {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.signTopic {
+    font-size: 70px;
+    color: #D5D9DD;
+    font-style: italic;
+    position: absolute;
+    top: 5%;
+    left: 30%;
+}
+
+.signup-container {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    background: #212529;
+    padding: 40px 30px;
+    border-radius: 12px;
+    width: 500px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.signup-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.signup-form input:focus {
+    border-color: #333;
+    outline: none;
+}
+
+
+button {
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.navBar {
+    background-color: #67737F;
+    margin: 10px;
+}
+
+.imagePic {
+    width: 1440px;
+    height: 776px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ccc;
+    margin: 20px auto;
+    opacity: 40%;
+}
+
+.imagePic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.TextPic1 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.TextPic2 {
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.TextPic3 {
+    position: absolute;
+    top: 42%;
+    left: 28%;
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.vista {
+    opacity: 70%;
+    position: absolute;
+    top: 90%;
+    border-radius: 8px;
+    color: #FFFFFF;
+    margin: 30px;
+    text-align: center;
+}
+
+.searchIcon {
+    margin: 10px;
+    padding: 10px;
+    background-color: #B9BFC6;
+    border-radius: 8px;
+}
+
+.Topic150 {
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    font-size: 60px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.txt1 {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.txt2 {
+    position: absolute;
+    top: 22%;
+    left: 13%;
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.aboutTxt {
+    position: absolute;
+    top: 33%;
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 12px;
+    background-color: #D9D9D9;
+    color: black;
+    font-size: 45px;
+    font-weight: 600;
+    font-style: initial;
+}
+
+.paraAbout {
+    position: absolute;
+    top: 48%;
+    margin: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+.ourV {
+    position: absolute;
+    top: 80%;
+    right: 10%;
+    display: flexbox;
+    color: #D5D9DD;
+}
+
+.ourM {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    display: flexbox;
+    color: #D5D9DD;
+}
+
+.ourVTxt {
+    position: absolute;
+    top: 85%;
+    right: 5%;
+    padding: 30px;
+    font-weight: bold;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #D9D9D9;
+}
+
+.ourMtxt {
+    position: absolute;
+    top: 84%;
+    left: 3%;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #D9D9D9;
+}
+
+.map {
+    position: absolute;
+    right: 5%;
+    width: 100%;
+    max-width: 800px;
+    height: 250px;
+    margin: 30px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.GuruluRaksha {
+    position: absolute;
+    top: 13%;
+    right: 2%;
+}
+
+.NagaRaksha {
+    position: absolute;
+    top: 13%;
+    left: 2%;
+}
+
+.MayuraRaksha {
+    position: absolute;
+    top: 55%;
+    right: 2%;
+}
+
+.GaraRaksha {
+    position: absolute;
+    top: 55%;
+    left: 2%;
+}
+
+.GinidalRaksha {
+    position: absolute;
+    top: 35%;
+    left: 37%;
+}
+
+.masks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.mask-box {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(236, 9, 9, 0.2);
+    border: 2px solid #ccc;
+}
+
+.mask-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+    border-radius: 20px;
+}
+
+.overlay-text1 {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.overlay-text2 {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.mask-box:hover img {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.mask-box:hover .overlay-text1,
+.mask-box:hover .overlay-text2 {
+    opacity: 1;
+}
+
+#message {
+    border-radius: 12px;
+}
+
+.buttonSum {
+    margin-top: 10px;
+    position: absolute;
+    left: 40%;
+    top: 93%;
+}
+
+.imgCont {
+    position: absolute;
+    top: 1%;
+    right: 0;
+    width: fit-content;
+    height: auto;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.imgCont img {
+    width: 60vw;
+    height: auto;
+    width: 110%;
+    display: block;
+}
+
+.yakama {
+    position: absolute;
+    left: 35%;
+}
+
+.notFount1 {
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    color: #D5D9DD;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.notFount2 {
+    position: absolute;
+    top: 82%;
+    left: 37%;
+    color: #D5D9DD;
+    font-size: 50px;
+    font-weight: bold;
+    gap: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
